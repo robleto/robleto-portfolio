@@ -1,0 +1,153 @@
+
+/*----------------------------------------
+About
+----------------------------------------*/
+
+
+#about .container {
+	display: grid;
+	grid-template-columns: [full-start] [full-end];
+	grid-gap: 20px;
+}
+.about-content {
+	grid-column: full-start / full-end; 
+	grid-row: 1;
+}
+
+.skills-section {
+	grid-column: full-start / full-end; 
+	grid-row: 2;
+}
+
+
+
+
+
+.about-content {
+	padding: 1rem;
+	h2 {
+		margin-bottom: 30px;
+		text-transform: capitalize;
+	}
+	p {
+		margin-bottom: 16px;
+	}
+	ul li {
+		margin-top: 8px;
+		font-size: 14px;
+		color: #666;
+	}
+	ul li span {
+		font-weight: 700;
+		color: #232323;
+	}
+	ul li span i {
+		margin-right: 4px;
+	}
+}
+
+
+
+
+.social-list {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	li {
+		display: inline-block;
+		margin: 4px;
+	}
+	li a {
+		display: inline-block;
+		font-size: 16px;
+		width: 38px;
+		height: 38px;
+		text-align: center;
+		line-height: 36px;
+		color: #232323;
+		border: 1px solid #888;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		border-radius: 50%;
+	}
+	li:hover a {
+		color: #fafafa;
+		background-color: #232323;
+		border-color: transparent;
+	}
+}
+
+
+
+
+
+
+.skills-section {
+	padding: 1rem;
+
+	.progress-bar-linear {
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+	.progress-bar-text {
+	    display: inline-block;
+	    margin-left: 8px;
+	    margin-bottom: 6px;
+	    font-size: 13px;
+	    font-weight: 700;
+	}
+	.progress-cont {
+	    display: inline-block;
+	    float: right;
+	    margin-right: 10px;
+	}
+	.progress-bar-linear .progress-bar-skills {
+	    position: relative;
+	    width: 100%;
+	    background-color: #dfdfdf;
+	    -webkit-border-radius: 12px;
+	    -moz-border-radius: 12px;
+	    border-radius: 12px;
+	}
+	.progress-bar-skills .progress-bar-line {
+	    position: relative;
+	    width: 5%;
+	    height: 6px;
+	    background-color: #4f4f4f;
+	    -webkit-transition: all 1.6s ease-out;
+	    -o-transition: all 1.6s ease-out;
+	    -moz-transition: all 1.6s ease-out;
+	    transition: all 1.6s ease-out;
+	    -webkit-border-radius: 12px;
+	    -moz-border-radius: 12px;
+	    border-radius: 12px;
+	}
+
+}
+
+
+
+
+
+/*----------------------------------------
+Mediaqueries
+----------------------------------------*/
+@include mq('tablet') {
+
+	#about .container {
+		grid-template-columns: [full-start] 1fr [full-center] 1fr [full-end];
+		grid-gap: 20px;
+	}
+	.about-content {
+		grid-column: full-start / full-center; 
+		grid-row: 1;
+	}
+
+	.skills-section {
+		grid-column: full-center / full-end; 
+		grid-row: 1;
+	}
+
+
+
+
+}
