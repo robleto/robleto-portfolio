@@ -27,10 +27,10 @@
         <div class="progress-bar-linear">
           <p class="progress-bar-text">SITE BUILDING (HTML/FRAMEWORKS)</p>
           <div class="progress-cont">
-            <span class="main-color progress-bar-text">98%</span>
+            <span class="main-color progress-bar-text">92%</span>
           </div>
           <div class="progress-bar-skills">
-            <div class="progress-bar-line main-color-bg" data-percent="98"></div>
+            <div class="progress-bar-line main-color-bg" data-percent="92"></div>
           </div>
         </div>
         <div class="progress-bar-linear">
@@ -43,12 +43,12 @@
           </div>
         </div>
         <div class="progress-bar-linear">
-          <p class="progress-bar-text">SITE INTERACTION (JAVASCRIPT/JQUERY)</p>
+          <p class="progress-bar-text">SITE INTERACTION (JS/VUE/REACT)</p>
           <div class="progress-cont">
-            <span class="main-color progress-bar-text">81%</span>
+            <span class="main-color progress-bar-text">71%</span>
           </div>
           <div class="progress-bar-skills">
-            <div class="progress-bar-line main-color-bg" data-percent="81"></div>
+            <div class="progress-bar-line main-color-bg" data-percent="71"></div>
           </div>
         </div>
         <div class="progress-bar-linear">
