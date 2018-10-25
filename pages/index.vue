@@ -1,9 +1,6 @@
 <template>
   <div id="app">
 
-    <!-- FONT AWESOME -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-
     <navigation/>
     <home/>
     <about/>
@@ -15,6 +12,7 @@
 </template>
 
 <script>
+
 import navigation from '~/components/navigation.vue'
 import home from '~/components/home.vue'
 import about from '~/components/about.vue'
@@ -35,8 +33,3 @@ export default {
   }
 }
 </script>
-
-
-<style  lang="scss">
-  @import "assets/scss/style.scss";
-</style>

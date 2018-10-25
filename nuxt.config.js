@@ -1,4 +1,6 @@
 const pkg = require('./package')
+const $ = require('./plugins/jquery.min')
+
 
 module.exports = {
   mode: 'universal',
@@ -14,7 +16,9 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.1.0/css/all.css', integrity: 'sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt', crossorigin: 'anonymous' }
+    
     ]
   },
 
@@ -27,20 +31,25 @@ module.exports = {
   ** Global CSS
   */
   css: [
+  
+    // SCSS file in the project
+  '@/assets/scss/style.scss',
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+   '@/plugins/main.js'
   ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
+
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
   ],
   /*
   ** Axios module configuration
@@ -53,19 +62,6 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-      // Run ESLint on save
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
+    
   }
 }

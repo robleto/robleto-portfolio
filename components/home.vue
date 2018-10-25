@@ -4,7 +4,7 @@
     <div class="page-table">
       <div class="table-cell text-center">
         <div class="avatar-hero">
-          <img src="../static/img/gr-headshotC.jpg" alt="Greg Robleto">
+          <img src="/img/gr-headshotC.jpg" alt="Greg Robleto">
                 </div>
           <h1>Hi, I'm Greg Robleto</h1>
           <h2 class="typer-title">I'm a Product Designer</h2>

@@ -28,7 +28,7 @@
         <div class="work-item filtr-item design development">
           <div class="single-work mb-30">
             <a href="https://medium.com/@robleto/motley-fool-premium-99f191e35612" target="_blank" rel="nofollow">
-                  <img class="effect" src="../static/img/port-totalincome-preview.png" alt="Motley Fool Premium Code Migration">
+                  <img class="effect" src="/img/port-totalincome-preview.png" alt="Motley Fool Premium Code Migration">
                   <div class="work-overlay effect">
                       <h3>Motley Fool Premium Code Migration</h3>
                       <div class="s-line"></div>
@@ -40,7 +40,7 @@
         <div class="work-item filtr-item design development">
           <div class="single-work mb-30">
             <a href="https://medium.com/@robleto/ux-case-study-motley-fool-scorecards-9a00c0cf1157" target="_blank" rel="nofollow">
-                  <img class="effect" src="../static/img/port-scorecards.png" alt="Motley Fool Scorecards">
+                  <img class="effect" src="/img/port-scorecards.png" alt="Motley Fool Scorecards">
                   <div class="work-overlay effect">
                       <h3>Motley Fool Scorecards</h3>
                       <p>Crafting a system for tracking members stocks</p>
@@ -51,7 +51,7 @@
         <div class="work-item filtr-item design">
           <div class="single-work mb-30">
             <a href="https://medium.com/@robleto/ux-case-study-motley-fool-market-pass-10dfcc971929" target="_blank" rel="nofollow">
-                  <img class="effect" src="../static/img/port-marketpass.png" alt="work-4">
+                  <img class="effect" src="/img/port-marketpass.png" alt="work-4">
                   <div class="work-overlay effect">
                       <h3>Motley Fool's Best Stocks to Buy</h3>
                       <p>Migrating off a print newsletter biz model</p>
@@ -62,7 +62,7 @@
         <div class="work-item filtr-item design">
           <div class="single-work mb-30">
             <a href="https://medium.com/@robleto/ux-case-study-portfolio-frameworks-a5f612dceb9c" target="_blank" rel="nofollow">
-                  <img class="effect" src="../static/img/port-premierpass.png" alt="work-4">
+                  <img class="effect" src="/img/port-premierpass.png" alt="work-4">
                   <div class="work-overlay effect">
                       <h3>Motley Fool Portfolio Framework</h3>
                       <p>Migrating off a print newsletter biz model</p>
@@ -73,7 +73,7 @@
         <div class="work-item filtr-item design development">
           <div class="single-work mb-30">
             <a href="#">
-                  <img class="effect" src="../static/img/port-reports-preview.png" alt="work-2">
+                  <img class="effect" src="/img/port-reports-preview.png" alt="work-2">
                   <div class="work-overlay effect">
                       <h3>Motley Fool Reports Migration</h3>
                       <p>Porting 80+ reports to fit into Premium</p>
@@ -84,7 +84,7 @@
         <div class="work-item filtr-item design development">
           <div class="single-work mb-30">
             <a href="#">
-                  <img class="effect" src="../static/img/port-robletofamily-preview.png" alt="Robleto Family">
+                  <img class="effect" src="/img/port-robletofamily-preview.png" alt="Robleto Family">
                   <div class="work-overlay effect">
                       <h3>CSS Grid in Robleto Family</h3>
                       <p>Converting print to web using CSS Grid</p>
